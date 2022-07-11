@@ -41,6 +41,7 @@ body {
   margin-top: 20px;
   background-color: #dcdbdb;
   cursor: pointer;
+  color: pink;
 }
 .calculator-container .sinais input:hover {
   background-color: #bdbdbd;
