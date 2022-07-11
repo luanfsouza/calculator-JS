@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1.3rem;
+}
+.calculator-container {
+  border: 1px solid black;
+  height: 500px;
+  width: 500px;
+  margin: auto;
+  padding: 10px 20px;
+}
+
+.calculator-container #calculator-mirror {
+  border: 1px solid rgb(176, 173, 173);
+  border-radius: 1px;
+  height: 60px;
+  padding-right: 15px;
+  padding-top: 10px;
+  text-align: right;
+  margin-right: 6px;
+  font-size: 2rem;
+  overflow-x: auto;
+  transition: all 0.2s ease-in-out;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.calculator-container .sinais {
+  display: flex;
+  justify-content: space-between;
+}
+.calculator-container .sinais input {
+  padding: 10px 45px;
+  margin-top: 20px;
+  background-color: #dcdbdb;
+  cursor: pointer;
+}
+.calculator-container .sinais input:hover {
+  background-color: #bdbdbd;
+}
+.calculator-container .number {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space;
+}
+
+.calculator-container .numbers input {
+  padding: 10px 50px;
+  margin: 10px 5px;
+  cursor: pointer;
+  width: 28%;
+}
+input:hover {
+  font-weight: bold;
+}
+.calculator-container .number #equal {
+  background-color: #00e1ff;
+  height: 300px;
+  width: 40%;
+  cursor: pointer;
+}
+.calculator-container .number #equal:hover {
+  background-color: #05bcd5;
+}
